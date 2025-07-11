@@ -1,42 +1,26 @@
-/* General Reset */
+
+/* style.css */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  font-family: sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* Header Styling */
-header {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-/* Section Styling */
-section {
+.login-box {
+  background: white;
   padding: 20px;
-  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
 }
 
-/* Paragraph Styling */
-p {
-  font-size: 18px;
-  line-height: 1.6;
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
 }
 
-/* Button Styling */
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #45a049;
 }
